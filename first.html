@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>테스트</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <style>
+      .container {
+        display: flex;
+        background: #ddd;
+        margin: 0 auto;
+      }
+      .container > div {
+        width: 50%;
+        height: 300px;
+        background: #ddd;
+        margin: 0 auto;
+      }
+      .container > div:first-child {
+        background: rgb(83, 79, 79);
+      }
+    </style>
+    <div class="container">
+      <div>1번박스</div>
+      <div>2번박스.2</div>
+    </div>
+  </body>
 </html>
